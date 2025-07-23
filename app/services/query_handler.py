@@ -7,7 +7,7 @@ import io
 import base64
 
 from app.core.config import GEMINI_API_KEY, DB_PATH
-from app.logger import app_logger, sql_logger
+from app.core.logger import app_logger, sql_logger
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
