@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pandas
+openai
+python-dotenv
+sqlalchemy
+aiohttp
+plotly
+httpx
+openpyxl
+requests
+google-generativeai
+matplotlib
+streamlit
